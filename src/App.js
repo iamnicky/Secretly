@@ -33,7 +33,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Dashboard />}></Route>
             <Route
-              path="/messages/:uniqueId"
+              path="/#/messages/:uniqueId"
               element={<EncryptedMessage />}
             ></Route>
             <Route path="*" element={<NotFound />}></Route>
