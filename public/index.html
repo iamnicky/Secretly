@@ -33,40 +33,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Share your secret 🤫</title>
-    https://docs.google.com/document/d/1tVqvXUEw_sSkVOixvYXfrEAOYd3av-MAW0K0REBIRzw/edit?tab=t.0
 
-give access of this doc ^
-
-hi , hare krishna
-hare krishna
-started ?
-
-
-<script>
-    // Check if we have a redirect URL stored
-    (function() {
-      var redirectUrl = sessionStorage.redirectUrl;
-      if (redirectUrl) {
-        // Clear the redirect URL
-        delete sessionStorage.redirectUrl;
-        
-        // Extract the path from the full URL
-        var url = new URL(redirectUrl);
-        var path = url.pathname;
-        
-        // Handle paths like /messages/messageId
-        if (path.startsWith('/messages/')) {
-          // Extract the message ID
-          var messageId = path.split('/').pop();
-          
-          // Wait for React to load, then navigate to the correct page
-          setTimeout(function() {
-            window.location.hash = '/messages/' + messageId;
-          }, 100);
-        }
-      }
-    })();
-  </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
