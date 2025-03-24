@@ -1,0 +1,28 @@
+/* Add this to your CSS file */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333; /* Or your app's primary color */
+  transition: all 0.3s ease;
+}
+
+.navbar-logo:hover {
+  transform: scale(1.05);
+}
+
+.logo-icon {
+  margin-right: 8px;
+  color: #ff6b6b; /* Or your app's accent color */
+}
+
+.app-name {
+  font-family: 'Montserrat', sans-serif; /* Consider adding this Google Font */
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  background: linear-gradient(45deg, #ff6b6b, #556270);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+} 
